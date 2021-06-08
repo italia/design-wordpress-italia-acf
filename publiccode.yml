@@ -1,0 +1,71 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: wordpress
+categories:
+  - website-builder
+description:
+  it:
+    features:
+      - Bootstrap Italia
+      - Opzioni ACF
+      - Tema Parent
+    genericName: Tema Wordpress
+    localisedName: designwp
+    longDescription: |
+      Tema basato su Bootstrap italia utilizzando il plugin ACF - Advanced
+      Custom Fields.
+
+      Utilizzabile come tema padre per costruire siti compliant con le linee
+      guida della PA,
+
+      Il tema è realizzato rispettando la template-hierarchy Wordpress, e
+      utilizzando i template-part in maniera tale che sia facilmente estendibile
+      realizzando un child theme.
+
+      Le stringhe del tema sono language ready, quindi traducibili tramite file
+      pot o tramite plugins multilingua.
+
+      Il plugin Advanced Custom Field non è incluso nel tema, va installato e
+      attivato perchè il tema sia pienamente funzionante, ed è utilizzabile sia
+      la versione ACF presente nel repository WordPress che la versione pro.
+    shortDescription: Tema Bootstrap italia utilizzando  Advanced Custom Fields
+developmentStatus: beta
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - government
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: GPL-3.0-or-later
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: marco.buttarini@gmail.com
+      name: Marco Buttarini
+      phone: '+393471274782'
+  type: community
+name: Design Wordpress Italia ACF
+platforms:
+  - web
+releaseDate: '2021-05-23'
+softwareType: addon
+softwareVersion: 1.0.0
+url: 'https://github.com/italia/design-wordpress-italia-acf'
