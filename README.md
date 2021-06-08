@@ -13,7 +13,7 @@ Design Italia è sviluppato per [**WordPress 5**](https://it.wordpress.org/) (CM
 Design Italia propone una **soluzione open-source e gratuita**, ideale per comuni, istituti e piccoli enti pubblici in genere che hanno scelto di utilizzare WordPress per il proprio sito intenet.
 
 
-## Come utlizzare Design Italia
+## Come utlizzare Design Wordpress Italia ACF
 * Salvare il file [.zip](https://raw.githubusercontent.com/italia/design-wordpress-theme/master/design-wordpress-italia-acf.zip) in locale.
 * Aggiungere un nuovo tema nella sezione _"Aspetto" > "Temi"_.
 * Selezionare _"Aggiungi nuovo"_ e successivamente _"Carica tema"_.
